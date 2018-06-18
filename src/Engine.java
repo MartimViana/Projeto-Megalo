@@ -1,5 +1,5 @@
 /**
- * 
+ * This class is responsible for fundemental game loop
  * @author Martim Viana
  *
  */
@@ -16,7 +16,11 @@ public class Engine implements Runnable{
 	 * This is the fundemental game loop.
 	 */
 	public void run() {
-		System.out.println("Engine.run");
+		//TODO need to count the ammount of fps!
+		while(true) {
+			System.out.println("Engine.run");
+			
+		}
 	}
 	
 	/**
