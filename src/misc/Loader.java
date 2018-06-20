@@ -10,7 +10,7 @@ import entity.creature.*;
 public class Loader {
 	private List<Species> species;
 	public Loader() {
-		this.species = new ArrayList<Species>();
+		this.species = new ArrayList<Species>();	//Initializes the species lis
 		
 		//Load the lists
 		loadSpecies();
@@ -44,5 +44,5 @@ public class Loader {
 		else
 			return null;
 	}
-	//
+
 }

@@ -10,4 +10,17 @@ public class Statistics {
 	 * @return
 	 */
 	public int roll(int d) {return (int) (1 + Math.random() * d);}
+	
+	/**
+	 * Calculates the mean of an array of integers.
+	 * @param arr	The array of integers.
+	 * @return		The mean value of the array of integers.
+	 */
+	public double mean(int[] arr) {
+		int result = 0;
+		for(int i: arr)
+			result += i;
+		return (result / arr.length);
+	}
+
 }

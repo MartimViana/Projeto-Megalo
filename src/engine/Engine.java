@@ -19,7 +19,7 @@ public class Engine implements Runnable{
 		this.load = new Loader();
 		
 		//Configuring the main screen
-		this.mainScreen = new Screen(600, 800, "test");
+		this.mainScreen = new Screen(600, 800, "project megalo");
 		this.mainScreen.visible(true);
 		//End of main screen configuration
 		new Thread(this).run();	//Runs the game loop
@@ -31,16 +31,18 @@ public class Engine implements Runnable{
 	 */
 	public void run() {
 		//TODO need to count the ammount of fps!
-		Statistics dice = new Statistics();
+		
+		//Statistics dice = new Statistics();
 		while(true) {
-			System.out.println(dice.roll(20));
+			
+			render();	//Refreshes the graphics
 		}
 	}
 	
 	/**
 	 * Refreshes the entire screen graphic-wise.
 	 */
-	public void render() {
+	private void render() {
 		
 	}
 }
