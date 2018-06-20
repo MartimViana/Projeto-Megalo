@@ -10,14 +10,14 @@ import entity.creature.*;
 public class Loader {
 	private List<Species> species;
 	public Loader() {
-		this.species = new ArrayList<Species>();	//Initializes the species lis
+		this.species = new ArrayList<Species>();	//Initializes the species list
 		
 		//Load the lists
 		loadSpecies();
 	}
 	
 	public void loadSpecies() {
-		species.add(new Species("Human", 10, 10));
+		species.add(new Species("Human", 100, 20));
 	}
 	
 	//Finding the species

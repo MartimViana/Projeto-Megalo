@@ -1,6 +1,5 @@
 package entity.creature;
 
-
 /**
  * 
  * @author Martim Viana
