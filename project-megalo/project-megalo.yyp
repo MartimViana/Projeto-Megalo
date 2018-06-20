@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "2d2eb041-6aa2-4ad1-ba39-524f7813e3eb",
+            "Value": {
+                "id": "d490b789-5340-4998-ad4c-417f8b8da95a",
+                "resourcePath": "views\\2d2eb041-6aa2-4ad1-ba39-524f7813e3eb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3b02bacd-8ed8-4f39-9d46-f9be3d3c292f",
             "Value": {
                 "id": "eb72686f-de39-4dc4-bc83-e498aa09c886",
@@ -84,6 +92,14 @@
                 "id": "dfc89964-a6a8-41d9-85f4-357343a89e6a",
                 "resourcePath": "views\\3f201fe3-9b57-4a65-a061-7b467591f5ab.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "47525c77-45ba-4561-ac48-b8e734216573",
+            "Value": {
+                "id": "9391ad79-0ad6-43cd-b5eb-945f36d6e3bc",
+                "resourcePath": "fonts\\Arial\\Arial.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -124,6 +140,30 @@
                 "id": "3a52bc44-3135-4ba8-81bb-e5aa0816810a",
                 "resourcePath": "views\\83c1a709-165f-4e56-8589-d3bc2026cc5a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "868c58d3-1036-43e8-9982-b225ec2bf673",
+            "Value": {
+                "id": "27f848da-6cf4-4fa5-83e3-d89de914df02",
+                "resourcePath": "objects\\Human\\Human.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8b29ffcc-2736-48a4-8d35-3278c437aa4e",
+            "Value": {
+                "id": "fece082b-be92-4a75-9148-6adb547deeba",
+                "resourcePath": "views\\8b29ffcc-2736-48a4-8d35-3278c437aa4e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a0d82030-48ed-4091-9241-a58aa7611e1b",
+            "Value": {
+                "id": "43547ab1-a888-4467-9808-2706bae73d74",
+                "resourcePath": "objects\\Knife\\Knife.yy",
+                "resourceType": "GMObject"
             }
         },
         {

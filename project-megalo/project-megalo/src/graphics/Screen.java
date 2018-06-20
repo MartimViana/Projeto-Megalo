@@ -1,9 +1,10 @@
 package graphics;
 import javax.swing.*;
 import java.util.*;
+
 /**
  * 
- * @author André Alves
+ * @author Andre Alves
  *
  */
 public class Screen {
