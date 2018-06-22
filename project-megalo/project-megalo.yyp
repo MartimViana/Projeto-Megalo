@@ -66,7 +66,7 @@
             "Key": "23ff4a50-19c3-4e5f-b9d8-fca42fb036f4",
             "Value": {
                 "id": "c18cd42f-49ea-47a4-b09b-67822f4836ce",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\test_room\\test_room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -103,10 +103,34 @@
             }
         },
         {
+            "Key": "4c92d845-383c-4fab-a7de-9ea26c68aed8",
+            "Value": {
+                "id": "8784f96f-257e-44ad-8cb2-b0bb20e3989c",
+                "resourcePath": "sprites\\wood_wall_sprite\\wood_wall_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "51c6c284-a2c9-49b5-9fa5-3546a318a0a8",
+            "Value": {
+                "id": "699c2fc7-3f79-45d0-ba51-e63331ea1ec9",
+                "resourcePath": "objects\\Wooden_Floor\\Wooden_Floor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "52b762e9-084a-462a-8f63-7d6ad6ee606a",
             "Value": {
                 "id": "86458829-8063-4ecd-b80b-b9ac6f4a55bc",
                 "resourcePath": "views\\52b762e9-084a-462a-8f63-7d6ad6ee606a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5e54160d-bccf-4f36-a475-d739b13500a8",
+            "Value": {
+                "id": "dfa3c4fb-6ad8-4d87-a219-c43a03021415",
+                "resourcePath": "views\\5e54160d-bccf-4f36-a475-d739b13500a8.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -135,6 +159,22 @@
             }
         },
         {
+            "Key": "6a559c27-73ab-4dde-9936-e365477b7ab4",
+            "Value": {
+                "id": "7aeaed6e-ff60-4734-8c3c-2573b0850524",
+                "resourcePath": "sprites\\wood_floor_sprite\\wood_floor_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "76695d2f-8ded-4081-8058-d3297a46f497",
+            "Value": {
+                "id": "7e73e804-7392-477d-8477-924bbc0de4c5",
+                "resourcePath": "objects\\Wooden_Wall\\Wooden_Wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "83c1a709-165f-4e56-8589-d3bc2026cc5a",
             "Value": {
                 "id": "3a52bc44-3135-4ba8-81bb-e5aa0816810a",
@@ -155,6 +195,14 @@
             "Value": {
                 "id": "fece082b-be92-4a75-9148-6adb547deeba",
                 "resourcePath": "views\\8b29ffcc-2736-48a4-8d35-3278c437aa4e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8c2b6d3a-5964-41af-9b6b-0c94bf64eb1a",
+            "Value": {
+                "id": "fbd11d5d-4d9e-45b0-8727-7463f66b4ece",
+                "resourcePath": "views\\8c2b6d3a-5964-41af-9b6b-0c94bf64eb1a.yy",
                 "resourceType": "GMFolder"
             }
         },

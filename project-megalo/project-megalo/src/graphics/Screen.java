@@ -1,9 +1,11 @@
 package graphics;
-import javax.swing.*;
-import java.util.*;
-import org.lwjgl.*;
+import java.awt.DisplayMode;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JFrame;
+
 import org.lwjgl.opengl.Display;
-import org.lwjgl.opengl.DisplayMode;
 /**
  * 
  * @author Andre Alves

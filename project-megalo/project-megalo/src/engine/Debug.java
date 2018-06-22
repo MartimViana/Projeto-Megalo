@@ -7,4 +7,8 @@ public class Debug {
 	public Debug(Loader l) {
 		this.loader = l;
 	}
+	
+	public void loadTestMap() {
+		
+	}
 }
