@@ -1,8 +1,10 @@
-/// @description Camera behaviour
+/// @description Insert description here
 // You can write your code in this editor
-if abs(player.x - mouse_x) < game_width() and abs(player.y - mouse_y) < game_height(){
-	//x = mouse_x;
-	//y = mouse_y;
+if keyboard_check(vk_shift) {
+	x = mouse_x;
+	y = mouse_y;
+}
+else {
 	x = player.x;
 	y = player.y;
 }
