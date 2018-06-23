@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "826b2a7c-140e-4770-bfc2-b5d619dff4d3",
+            "Value": {
+                "id": "89bb71d1-2d69-468d-9a0e-915d31b00e10",
+                "resourcePath": "scripts\\game_width\\game_width.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "83a80a90-acf7-496e-a6d3-d9a469fec64c",
             "Value": {
                 "id": "1670c3fc-9e94-4a14-8b60-f38b3cb5c1d5",
@@ -178,7 +186,7 @@
             "Key": "b527fd76-d4ae-4589-beb2-eb1b47e85c40",
             "Value": {
                 "id": "726bcd0c-3f79-41d9-ba6b-867e3165d9d3",
-                "resourcePath": "objects\\bullet\\bullet.yy",
+                "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -204,6 +212,14 @@
                 "id": "52bace39-b444-4651-bc10-c06c8d994d23",
                 "resourcePath": "views\\c0b7e648-c2c9-4b2d-ac06-2a0cb346e5ae.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c5b32665-04f4-4104-bbc5-0081d9397a33",
+            "Value": {
+                "id": "9fff314c-b5a7-4f6e-8c01-2fb3edfa96eb",
+                "resourcePath": "scripts\\game_height\\game_height.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -248,7 +264,9 @@
         }
     ],
     "script_order": [
-        "50580f12-6c0d-4a35-b72e-2d81d3b23c9b"
+        "50580f12-6c0d-4a35-b72e-2d81d3b23c9b",
+        "826b2a7c-140e-4770-bfc2-b5d619dff4d3",
+        "c5b32665-04f4-4104-bbc5-0081d9397a33"
     ],
     "tutorial": ""
 }

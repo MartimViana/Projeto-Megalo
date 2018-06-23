@@ -21,16 +21,17 @@ else {
 }
 
 //MOUSE
-//character rotation
-rspeed = 18;	//The higher the values, the faster the rotation
-dir = 0;		//Direction used only for rotation
-dir = point_direction(x, y, mouse_x, mouse_y);
-image_angle += sin(degtorad(dir - image_angle)) * rspeed;
-//shooting
-/*
-if mouse_check_button(mb_left) {
-	var son_bullet = instance_create(x, y, bullet);
-	son_bullet.speed = 10;
-	son_bullet.direction = image_angle;
-}
-*/
+	//character rotation
+	rspeed = 18;	//The higher the values, the faster the rotation
+	dir = 0;		//Direction used only for rotation
+	dir = point_direction(x, y, mouse_x, mouse_y);
+	image_angle += sin(degtorad(dir - image_angle)) * rspeed;
+	//shooting
+	if mouse_check_button_pressed(mb_left) {
+		var bullet = instance_create_depth(x, y, 10, obj_bullet);
+		//Setting the bullet direction
+		bullet.image_angle = image_angle;
+		bullet.direction = image_angle;
+		//Setting the bullet speed
+		bullet.speed = speed + 30;
+	}
