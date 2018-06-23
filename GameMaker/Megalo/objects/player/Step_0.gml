@@ -27,8 +27,10 @@ dir = 0;		//Direction used only for rotation
 dir = point_direction(x, y, mouse_x, mouse_y);
 image_angle += sin(degtorad(dir - image_angle)) * rspeed;
 //shooting
+/*
 if mouse_check_button(mb_left) {
 	var son_bullet = instance_create(x, y, bullet);
 	son_bullet.speed = 10;
 	son_bullet.direction = image_angle;
 }
+*/

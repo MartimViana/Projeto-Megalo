@@ -58,7 +58,7 @@
             "Key": "1a2b4daa-a85c-416e-9897-b70900e5ee5d",
             "Value": {
                 "id": "e5ca45be-36b0-4bc8-aad6-a2de9bc327ba",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\test_room\\test_room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -140,6 +140,14 @@
                 "id": "1670c3fc-9e94-4a14-8b60-f38b3cb5c1d5",
                 "resourcePath": "tilesets\\tileset0\\tileset0.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "8f5fa1e4-68b1-4de2-8d15-b40a556ff66e",
+            "Value": {
+                "id": "9ce0c311-1c6a-41dc-90ad-49e81f9fbc3c",
+                "resourcePath": "objects\\Camera\\Camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
