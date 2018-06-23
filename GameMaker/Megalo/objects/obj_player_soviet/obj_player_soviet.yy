@@ -1,15 +1,15 @@
 {
-    "id": "b8a466ed-6bda-4bc8-a1a9-3c4730cc4c9c",
+    "id": "8442f4ae-5a11-4c4f-a685-ae048d28af3d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "concrete_wall",
+    "name": "obj_player_soviet",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "parentObjectId": "fad6be39-0d32-42ce-b172-bb143316cdd7",
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "cf59723f-b600-46ed-b2fa-3360a015835b",
+    "solid": false,
+    "spriteId": "01f77cf3-295d-4d00-bd45-a83cf2a5ddfe",
     "visible": true
 }

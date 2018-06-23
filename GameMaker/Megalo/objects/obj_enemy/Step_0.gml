@@ -2,11 +2,11 @@
 // You can write your code in this editor
 
 //If the player goes within range, the enemy will try to shoot it!
-if abs(x - player.x) < 300 or abs(y - player.y) < 300 {
+if abs(x - obj_player.x) < 300 or abs(y - obj_player.y) < 300 {
 		//The enemy faces towards the player
 			rspeed = 18;	//The higher the values, the faster the rotation
 			dir = 0;		//Direction used only for rotation
-			dir = point_direction(x, y, player.x, player.y);
+			dir = point_direction(x, y, obj_player.x, obj_player.y);
 			image_angle += sin(degtorad(dir - image_angle)) * rspeed;
 		
 		//The actual bullet
